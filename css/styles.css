@@ -1,0 +1,186 @@
+/*
+Author: Student's Name
+Date: Current Date
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #9d2196;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for header */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9d2196;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5em; /* Adjust the font size as desired */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+/* Style rules for navigation area */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rules for main content */
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tel-link {
+    background-color: #bb24e1;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Style rules for the quote container */
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; /* You can adjust this to control the vertical centering */
+}
+
+#quote-container h1 {
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Style rules for the logo container */
+#logo-container {
+    border: 5px solid #fff; /* White border */
+    padding: 10px; /* Padding inside the border */
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .contact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+/* Style rules for the background image */
+#bg {
+    text-align: center; /* Center the image horizontally */
+}
+
+#bg-image {
+    max-width: 100%; /* Limit the width to 50% of the original size */
+    max-height: 100%; /* Limit the height to 50% of the original size */
+}
+
+#centered-content {
+    text-align: center; /* Center-align the text within this container */
+    font-size: 1.5em; /* Adjust the font size to your preference */
+}
+
+.map {
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+}
+
+/* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
