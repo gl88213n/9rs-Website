@@ -1,9 +1,13 @@
 body {
     background-color: #9d2196;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
 }
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -16,15 +20,19 @@ img {
     color: #fff;
     text-align: center;
     padding: 20px;
+    z-index: 1000;
 }
 
 header img {
     margin: 0 auto;
+    display: block;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -35,12 +43,15 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
+    padding: 0;
 }
 
 nav li {
     font-size: 1.5em;
     font-family: 'Francois One', sans-serif;
     border-top: 1px solid #fff;
+    margin: 0;
+    padding: 0;
 }
 
 nav li:first-child {
@@ -66,7 +77,6 @@ main {
     background-color: #fff;
     padding: 2%;
     font-size: 1.15em;
-    font-family: 'Roboto Slab', serif;
 }
 
 .tel-link {
@@ -137,7 +147,7 @@ main {
 
 #bg-image {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
 }
 
 #centered-content {
@@ -149,6 +159,7 @@ main {
     border: 2px solid #000;
     width: 95%;
     height: 50%;
+    margin: 0 auto;
 }
 
 footer p {
@@ -165,15 +176,19 @@ footer p a {
 
 /* Mobile styles */
 @media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.2em;
+    }
+
     nav li {
-        font-size: 1em; /* Decrease font size for navigation items on smaller screens */
+        font-size: 1.2em;
     }
 
     main {
-        padding: 5%; /* Increase padding for better spacing on smaller screens */
+        padding: 5%;
     }
 
     nav {
-        padding: 5px; /* Adjust navigation padding for better spacing on smaller screens */
+        padding: 5px;
     }
 }
