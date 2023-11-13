@@ -196,7 +196,7 @@ footer p a {
     }
 
     .action {
-        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+        font-size: 1em; /* Adjust font size for better readability on smaller screens */
     }
 
     #quote-container {
@@ -204,7 +204,7 @@ footer p a {
     }
 
     #centered-content {
-        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+        font-size: 1em; /* Adjust font size for better readability on smaller screens */
     }
 
     .map {
