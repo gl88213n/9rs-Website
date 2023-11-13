@@ -45,6 +45,10 @@ nav ul {
     text-align: center;
     padding: 0;
 }
+ main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
 nav li {
     font-size: 1.5em;
@@ -179,10 +183,6 @@ footer p a {
         font-size: 1.8em; /* Increase font size for navigation items on smaller screens */
     }
 
-    main {
-        padding: 5%;
-    }
-
     nav {
         padding: 5px;
     }
@@ -214,4 +214,5 @@ footer p a {
     main p {
         margin-bottom: 15px; /* Add margin to paragraphs for better spacing on smaller screens */
     }
+    
 }
