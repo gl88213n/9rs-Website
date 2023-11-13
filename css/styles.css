@@ -174,7 +174,6 @@ footer p a {
     text-decoration: none;
 }
 
-/* Mobile styles */
 @media only screen and (max-width: 600px) {
     nav li {
         font-size: 1.8em; /* Increase font size for navigation items on smaller screens */
@@ -186,5 +185,29 @@ footer p a {
 
     nav {
         padding: 5px;
+    }
+
+    .tel-link {
+        width: 90%; /* Adjust width for better mobile display */
+    }
+
+    .hours {
+        margin-left: 0; /* Reset margin for better alignment on smaller screens */
+    }
+
+    .action {
+        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+    }
+
+    #quote-container {
+        height: 10vh; /* Adjust height for better vertical centering on smaller screens */
+    }
+
+    #centered-content {
+        font-size: 1.2em; /* Adjust font size for better readability on smaller screens */
+    }
+
+    .map {
+        height: 30vh; /* Adjust height for better display on smaller screens */
     }
 }
