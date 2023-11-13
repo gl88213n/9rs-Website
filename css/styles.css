@@ -210,4 +210,8 @@ footer p a {
     .map {
         height: 30vh; /* Adjust height for better display on smaller screens */
     }
+
+    main p {
+        margin-bottom: 15px; /* Add margin to paragraphs for better spacing on smaller screens */
+    }
 }
